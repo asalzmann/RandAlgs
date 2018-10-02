@@ -28,3 +28,7 @@ These implementations should be useful to show how  randomized algorithms can of
 - Skip Lists
 - Hash Tables
 - Hashing with O(1) search time
+
+# Chapter 8
+- Tabulation hashing 
+- Linear Probing 
