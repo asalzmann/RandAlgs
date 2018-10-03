@@ -2,11 +2,10 @@ import numpy as np
 
 def lazyselect(arr, length, k, universe):
 	if arr == None:
-		assert type(length) is int and type(k) is int
-				and type(universe) is int
+		assert type(length) is int and type(k) is int and type(universe) is int
 		arr = np.random.randint(0,universe,length)
 	# 1 
-	draw = (int) length**(3/4)
+	draw = int(length**(3/4))
 
 	P = [None]
 	S_k = None
